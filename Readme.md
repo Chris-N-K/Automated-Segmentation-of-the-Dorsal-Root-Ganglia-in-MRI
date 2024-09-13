@@ -1,4 +1,4 @@
-# Code underlying the paper: <br>Automated-Segmentation-of-the-Dorsal-Root-Ganglia-in-MRI
+# Code to the paper: <br>Automated Segmentation of the Dorsal Root Ganglia in MRI
 The first jupyter notebook (Annotator Variability and Model Performance Evaluation) is used for calculation and visualisation of the inter-annotator metric scores and the evaluation of the segmentation performance of the model.
 For this, the variability between the annotators is performed by calculating the metric scores for each possible annotator pair on labels. To test for the performance of the model, the Dice Similarity Coefficient (DSC) and the Average Surface Distance (ASD) are calculated for the test set labels created by each model.
 
