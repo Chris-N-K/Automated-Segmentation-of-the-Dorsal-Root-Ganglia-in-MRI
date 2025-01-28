@@ -22,5 +22,13 @@ In this paper, we trained a customized version of [nnU-Net](https://github.com/M
 
 1. a compound of the default loss and a custom penalty term (DC-CE-LSP), and 
 2. a compound loss of DC and TopK (DC-TopK) (see [Ma et al., 2021](https://github.com/JunMa11/SegLossOdyssey))
+
+## 4) How to use the nnU-Net
+
+Download the ZIP file with the model weights from Zenodo (https://zenodo.org/uploads/14753009) and use nnU-Net V2 by unzipping the file and runnung the following command:
+
+nnUNetv2_predict_from_modelfolder -i input/ -o output/ -m DRGNet/ -f ‘all’
+
+The input files should be named #_0000.nii.gz and are expected in the folder input. One example image file is provided ([Example_MRI_data]).
     
 ----
