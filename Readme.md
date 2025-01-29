@@ -29,6 +29,6 @@ Download the ZIP file with the model weights hosted on Zenodo (https://zenodo.or
 
 `nnUNetv2_predict_from_modelfolder -i input/ -o output/ -m DRGNet/ -f 'all'`
 
-The input files should be named `#_0000.nii.gz` and are expected in the folder `input/`. One example image file is provided ([Example_MRI_data]).
+The input files should be named `#_0000.nii.gz` and are expected in the folder `input/`. One example image file is provided with the model (example_data_set.nii.gz]).
     
 ----
