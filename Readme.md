@@ -25,7 +25,7 @@ In this paper, we trained a customized version of [nnU-Net](https://github.com/M
 
 ## 4) How to use the nnU-Net
 
-Download the ZIP file with the model weights hosted on Zenodo (https://zenodo.org/uploads/14753009) and use nnU-Net V2 by unzipping the file and running the following command:
+Download the ZIP file with the model weights hosted on Zenodo ([https://zenodo.org/records/14753009](https://zenodo.org/records/14753009)) and use nnU-Net V2 by unzipping the file and running the following command:
 
 `nnUNetv2_predict_from_modelfolder -i input/ -o output/ -m DRGNet/ -f 'all'`
 
